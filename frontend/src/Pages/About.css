@@ -1,0 +1,27 @@
+.MainContainer{
+    background-color: aliceblue;
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Aboutbox{
+    background-color: #dcdde1;
+    height:auto;
+    width:70%;
+    color:#192a56;
+    font-size: 20px;
+    margin-top: 80px;
+    justify-content: space-around;
+}
+.boxHead{
+    height:100px;
+}
+.boxHead h1{
+    color:#192a56;
+    font-size: 20px;
+    margin-right: 50px;
+}
+
+

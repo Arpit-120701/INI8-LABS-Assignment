@@ -1,0 +1,54 @@
+.header{
+    overflow: hidden ;
+    background-color: #192a56;
+}
+
+.header p{
+    float: left;
+    color: white;
+    text-align: center;
+    padding:10px;
+    text-decoration: none;
+    font-size: 20px;
+    line-height: 15px;
+    border-radius: 4px;
+    gap:10px 10px;
+}
+
+.header p.logo
+{
+    font-size: 25px;
+    font-weight: bold;
+    color:white;
+    font-family: 'Lucida Sans Regular';
+}
+
+.header p:hover{
+    background-color: #ddd;
+    color:#5d6770;
+}
+
+.header p.active{
+    background-color: #f6e58d;
+    color:aliceblue;
+
+}
+
+.header-right
+{
+    float:right;
+}
+
+@media screen and (max-width :500px) {
+    .header p {
+        float : none;
+        display : block;
+        text-align: left;
+        font-size: 20px;
+    }
+
+    .header-right{
+        float: none;
+    }
+    
+}
